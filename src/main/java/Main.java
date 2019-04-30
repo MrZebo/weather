@@ -1,6 +1,4 @@
 import model.wunderground.WGWeatherDate;
-import model.wunderground.datamodel.HourlyForecastDay;
-import model.wunderground.datamodel.SimpleForecastDay;
 import model.wunderground.datamodel.WGWeatherModel;
 
 public class Main {
@@ -9,14 +7,14 @@ public class Main {
         try {
             WGWeatherModel model = date.GetWeatherDataByAutoIP();
             System.out.println(date);
-
-            for (SimpleForecastDay day : model.getForecast().getSimpleForecast().getSimpleForecastDays()) {
-                System.out.println(day.getDate().getMonthname() + " " + day.getDate().getDay() + " " + day.getDate().getWeekday() + " " + day.getPop());
-            }
-            for (HourlyForecastDay day : model.getHourlyForecasts()) {
-                System.out.println(day.getFctTime().getPretty() + " " + day.getTemp().getMetric() + " " + day.getPop());
-                System.out.println(day.getSimpleDate() + " " + day.getTemp().getMetric() + " " + day.getCondition() + " " +day.getPop());
-            }
+//
+//            for (SimpleForecastDay day : model.getForecast().getSimpleForecast().getSimpleForecastDays()) {
+//                System.out.println(day.getDate().getMonthname() + " " + day.getDate().getDay() + " " + day.getDate().getWeekday() + " " + day.getPop());
+//            }
+//            for (HourlyForecastDay day : model.getHourlyForecasts()) {
+//                System.out.println(day.getFctTime().getPretty() + " " + day.getTemp().getMetric() + " " + day.getPop());
+//                System.out.println(day.getSimpleDate() + " " + day.getTemp().getMetric() + " " + day.getCondition() + " " +day.getPop());
+//            }
         } catch (Exception e) {
             e.printStackTrace();
         }
