@@ -6,10 +6,133 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" line="8" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/WEB-INF/index.jsp" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28ea4789-f69b-43fe-8ac7-453781b58871" name="Default" comment="" />
+    <list default="true" id="28ea4789-f69b-43fe-8ac7-453781b58871" name="Default" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/apixu/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/weather_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/weather_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/APIXUWeatherDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/APIXUWeatherDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/APIxuForecastDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/APIxuForecastDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/ApixuWeatherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/ApixuWeatherModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Astro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Astro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Current.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Current.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Day.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Forecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Forecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Hour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Hour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/gismeteo/DaysOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gismeteo/DaysOfWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/gismeteo/GisMeteoDailyForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gismeteo/GisMeteoDailyForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/gismeteo/GisMeteoHtmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/gismeteo/GisMeteoHtmlParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/meteopost/MeteoPostDailyForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostDailyForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/meteopost/MeteoPostHtmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostHtmlParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/meteopost/MeteoPostWeatherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostWeatherModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/meteopost/Months.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/meteopost/Months.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/meteopost/TimesOfDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/meteopost/TimesOfDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/OpenWeatherWeatherDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/OpenWeatherWeatherDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/Astro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Astro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/Clouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Clouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/Forecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Forecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/OpenWeatherForecastDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/OpenWeatherForecastDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/OpenWeatherWeatherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/OpenWeatherWeatherModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/Snow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Snow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Wind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/WGWeatherDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/WGWeatherDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/FctTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/FctTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Fcttext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Fcttext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Fcttext_metric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Fcttext_metric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Forecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Forecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/High.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/High.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/HourlyForecastDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/HourlyForecastDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/HourlyForecasts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/HourlyForecasts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Low.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Low.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/SimpleForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/SimpleForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/SimpleForecastDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/SimpleForecastDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Txt_Forecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Txt_Forecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Txt_ForecastDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Txt_ForecastDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/WGWeatherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/WGWeatherModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/servlet/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/APIXUWeatherDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/APIxuForecastDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/ApixuWeatherModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/Astro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/Condition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/Current.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/Day.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/Forecast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/Hour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/apixu/datamodel/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/gismeteo/DaysOfWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/gismeteo/GisMeteoDailyForecast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/gismeteo/GisMeteoHtmlParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/meteopost/MeteoPostDailyForecast$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/meteopost/MeteoPostDailyForecast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/meteopost/MeteoPostHtmlParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/meteopost/MeteoPostWeatherModel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/meteopost/MeteoPostWeatherModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/meteopost/Months.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/meteopost/TimesOfDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/OpenWeatherWeatherDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/Astro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/Clouds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/Condition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/Coordinate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/Forecast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/OpenWeatherForecastDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/OpenWeatherWeatherModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/Snow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/WeatherData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/openweather/datamodel/Wind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/WGWeatherDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/Date.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/FctTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/Fcttext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/Fcttext_metric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/Forecast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/High.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/HourlyForecastDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/HourlyForecasts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/Low.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/SimpleForecast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/SimpleForecastDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/Txt_Forecast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/Txt_ForecastDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/model/wunderground/datamodel/WGWeatherModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/servlet/MyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/apixu/APIXUWeatherDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/apixu/APIXUWeatherDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/gismeteo/GisMeteoHtmlParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/gismeteo/GisMeteoHtmlParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/meteopost/MeteoPostDailyForecast$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/meteopost/MeteoPostDailyForecast$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/meteopost/MeteoPostHtmlParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/meteopost/MeteoPostHtmlParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/meteopost/MeteoPostWeatherModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/meteopost/MeteoPostWeatherModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/openweather/OpenWeatherWeatherDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/openweather/OpenWeatherWeatherDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/wunderground/WGWeatherDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/model/wunderground/WGWeatherDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/servlet/MyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/main/webapp/servlet/MyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.iml" beforeDir="false" afterPath="$PROJECT_DIR$/weather.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,53 +158,20 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/OpenWeatherWeatherDate.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/OpenWeatherWeatherModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/OpenWeatherForecastDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="36" />
-              <folding>
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/servlet/MyServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,19 +180,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/WeatherData.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/WGWeatherDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/model/wunderground/WGWeatherDateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,63 +211,72 @@
         <option value="Tag Library Descriptor" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Boris &lt;mrzebo2@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/openweather/datamodel/ForecastDay.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/openweather/datamodel/City.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/openweather/datamodel/Condition.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/openweather/datamodel/Coordinate.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/openweather/datamodel/WeatherData.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/openweather/datamodel/Clouds.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/openweather/datamodel/Wind.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Weather.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Months.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/DayTime.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Time.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/meteopost/WeatherModel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/TimesOfDay.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/meteopost/MeteoPostWeatherModel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/meteopost/HtmlParser.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/meteopost/DailyForecast.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/ForecastDay.java" />
-        <option value="$PROJECT_DIR$/src/org/weather/servlet/MyServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/EncodingFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Date.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Fcttext.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Fcttext_metric.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Txt_ForecastDay.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/High.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Txt_Forecast.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Low.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/SimpleForecast.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/SimpleForecastDay.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/openweather/OpenWeatherWeatherDate.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/meteopost/HtmlParser.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/xz.tld" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/gismeteo/DaysOfWeek.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/meteopost/MeteoPostWeatherModel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/gismeteo/GisMeteoDailyForecast.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/gismeteo/GisMeteoHtmlParser.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/apixu/APIXUWeatherDate.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/meteopost/MeteoPostHtmlParser.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/ApixuWeatherModel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/HourlyForecasts.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/FctTime.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Temp.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Forecast.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/WGWeatherDate.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/WGWeatherModel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/HourlyForecastDay.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/servlet/MyServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/OpenWeatherForecastDay.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Txt_ForecastDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Temp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/SimpleForecastDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Txt_Forecast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/WGWeatherModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Low.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/HourlyForecasts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/High.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/HourlyForecastDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Date.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Fcttext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Fcttext_metric.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/FctTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/SimpleForecast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Forecast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/wunderground/WGWeatherDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Astro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/City.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Coordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Condition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Forecast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Clouds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Snow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/OpenWeatherWeatherModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/OpenWeatherForecastDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Wind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostDailyForecast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostHtmlParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostWeatherModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/meteopost/Months.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/meteopost/TimesOfDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/gismeteo/GisMeteoHtmlParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/gismeteo/GisMeteoDailyForecast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/gismeteo/DaysOfWeek.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/APIxuForecastDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Astro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Condition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Current.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Day.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Forecast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Hour.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/datamodel/ApixuWeatherModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/apixu/APIXUWeatherDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/openweather/OpenWeatherWeatherDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/MyServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/model/wunderground/WGWeatherDateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/wunderground/WGWeatherDateTest.java" />
       </list>
     </option>
   </component>
@@ -186,6 +291,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -196,11 +302,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="weather Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="weather Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -210,6 +311,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -240,14 +344,14 @@
               <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="weather" type="b2602c69:ProjectViewProjectNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,16 +359,30 @@
               <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="weather" type="b2602c69:ProjectViewProjectNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wunderground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,16 +392,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/weather.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3632184" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model.wunderground" />
+      <recent name="main.webapp.model.apixu" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Home\IdeaProjects\weather\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Home\IdeaProjects\weather\src\main\webapp" />
@@ -301,7 +430,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="JUnit.WGWeatherDateTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -315,6 +444,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.webapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.Main" />
+      <module name="weather" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,13 +509,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WGWeatherDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.wunderground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.wunderground" />
+      <option name="MAIN_CLASS_NAME" value="model.wunderground.WGWeatherDateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -380,7 +541,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9090" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="weather:war">
@@ -464,12 +627,16 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="JUnit.WGWeatherDateTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.WGWeatherDateTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -554,13 +721,25 @@
       <workItem from="1542822439979" duration="510000" />
       <workItem from="1542825136728" duration="579000" />
       <workItem from="1553869739244" duration="1862000" />
+      <workItem from="1556013246920" duration="5058000" />
+      <workItem from="1556546324983" duration="1143000" />
+      <workItem from="1556607576281" duration="4468000" />
+      <workItem from="1556624540722" duration="6165000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156338000" />
+  <component name="TestHistory">
+    <history-entry file="WGWeatherDateTest - 2019.04.30 at 15h 59m 31s.xml">
+      <configuration name="WGWeatherDateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WGWeatherDateTest - 2019.04.30 at 16h 00m 30s.xml">
+      <configuration name="WGWeatherDateTest" configurationId="JUnit" />
+    </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="173172000" />
+  </component>
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -570,10 +749,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26385927" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27670172" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -581,22 +759,21 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32824427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32827735" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32900432" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32824427" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven" weight="0.32995737" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32995737" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -609,6 +786,7 @@
       <window_info anchor="right" id="JSF" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info anchor="right" id="Database" order="11" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="12" weight="0.32982844" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
@@ -649,344 +827,402 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/meteopost/TimesOfDay.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Temp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/meteopost/Months.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Txt_Forecast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="345">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/HttpClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Weather.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Astro.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Low.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Condition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/High.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Fcttext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/HourlyForecasts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="210">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Fcttext_metric.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="240">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Txt_ForecastDay.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Fcttext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="180">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Txt_Forecast.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Fcttext_metric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Low.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/FctTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="270">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Date.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/HourlyForecastDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/EncodingFilter.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/SimpleForecast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/SimpleForecastDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xz.tld" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/meteopost/MeteoPostDailyForecast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/meteopost/MeteoPostWeatherModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar!/org/jsoup/helper/HttpConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar!/org/jsoup/Jsoup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar!/org/jsoup/nodes/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="493" selection-start-line="493" selection-end-line="493" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar!/org/jsoup/select/Elements.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/gismeteo/DaysOfWeek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/gismeteo/GisMeteoDailyForecast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="127" selection-start-line="10" selection-start-column="127" selection-end-line="10" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/meteopost/MeteoPostHtmlParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="147" column="50" selection-start-line="147" selection-start-column="50" selection-end-line="147" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/apixu/APIXUWeatherDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/gismeteo/GisMeteoHtmlParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="62" column="204" selection-start-line="62" selection-start-column="204" selection-end-line="62" selection-end-column="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/Forecast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/ApixuWeatherModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/apixu/datamodel/APIxuForecastDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/High.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Temp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/FctTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/HourlyForecasts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/SimpleForecastDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/WGWeatherDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/WGWeatherModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/SimpleForecast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/Forecast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/wunderground/datamodel/HourlyForecastDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/OpenWeatherWeatherDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/OpenWeatherWeatherModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/OpenWeatherForecastDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="36" />
-          <folding>
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/servlet/MyServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        <state relative-caret-position="270">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/model/openweather/datamodel/WeatherData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/WGWeatherModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/datamodel/Forecast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Astro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Clouds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Snow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/WeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Wind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/OpenWeatherForecastDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/OpenWeatherWeatherModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/datamodel/Forecast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/meteopost/TimesOfDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/meteopost/Months.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostWeatherModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostHtmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/meteopost/MeteoPostDailyForecast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/gismeteo/DaysOfWeek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/gismeteo/GisMeteoDailyForecast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/gismeteo/GisMeteoHtmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Astro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Current.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Day.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Forecast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#346#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Hour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/ApixuWeatherModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/APIXUWeatherDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/apixu/datamodel/APIxuForecastDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/openweather/OpenWeatherWeatherDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model.wunderground.WGWeatherDate">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model.wunderground.WGWeatherDate</OriginalElement>
+          <nodes>
+            <node x="" y="">model.wunderground.WGWeatherDate</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="69.0" y="13.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Cdi/model.wunderground.WGWeatherDate">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Cdi</ID>
+          <OriginalElement>model.wunderground.WGWeatherDate</OriginalElement>
+          <nodes>
+            <node x="" y="">model.wunderground.WGWeatherDate</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="61.0" y="13.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>@Inject</Category>
+            <Category>@Produces</Category>
+            <Category>@Decorator</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/model/wunderground/WGWeatherDateTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/wunderground/WGWeatherDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/wunderground/WGWeatherDateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,7 +1237,6 @@
             <option name="proportions">
               <list>
                 <option value="0.3632184" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1032,7 +1267,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9.0</last-edited>
+          <last-edited>1.8.0_191</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
